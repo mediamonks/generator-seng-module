@@ -1,0 +1,22 @@
+language: node_js
+
+node_js:
+  - 'stable'
+  - '4'
+  - '5'
+
+sudo: false
+
+before_install:
+  - npm install -g typings
+  - npm install -g codeclimate-test-reporter
+
+deploy:
+  provider: npm
+  email: 'devmonk@mediamonks.com'
+  api_key:
+    secure: ''
+  on:
+    tags: true
+    node: '4'
+  skip_cleanup: false

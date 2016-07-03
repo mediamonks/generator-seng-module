@@ -1,0 +1,11 @@
+# .gitignore
+.idea
+node_modules
+.DS_Store
+npm-debug.log
+
+# .npmignore
+.editorconfig
+.gitignore
+.travis.yml
+AUTHORS.md

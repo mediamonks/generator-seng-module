@@ -1,0 +1,31 @@
+{
+  "name": "generator-seng-module",
+  "version": "1.0.0",
+  "description": "Copies the seng-boilerplate from Github and replaces the contents with your module name.",
+  "files": [
+    "app"
+  ],
+  "author": "Arjan van Wijk <arjan@mediamonks.com> (https://github.com/thanarie)",
+  "homepage": "https://www.mediamonks.com/",
+  "license": "MIT",
+  "keywords": [
+    "seng",
+    "mediamonks",
+    "yeoman-generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/mediamonks/generator-seng-module/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mediamonks/generator-seng-module.git"
+  },
+  "dependencies": {
+    "es6-promise": "^3.2.1",
+    "es6-promisify-all": "^0.1.0",
+    "format-json": "^1.0.3",
+    "fs-extra": "^0.30.0",
+    "replace": "^0.3.0",
+    "yeoman-generator": "^0.23.4"
+  }
+}

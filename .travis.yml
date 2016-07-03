@@ -1,22 +1,15 @@
 language: node_js
 
 node_js:
-  - 'stable'
-  - '4'
-  - '5'
+  - 'node'
 
 sudo: false
-
-before_install:
-  - npm install -g typings
-  - npm install -g codeclimate-test-reporter
 
 deploy:
   provider: npm
   email: 'devmonk@mediamonks.com'
   api_key:
-    secure: ''
+    secure: 'MjJBF453UPoT2SCE0+8n1bmp2yj1Is9Q3ftge0k1YDqZMpKUYHVPT5/NnIBqqtchE5UbEjqht4KfkwqrIB7iLq1nBuPW1TmuIEwjlZNzwDuFqAmFvm5hT/iAMOKMgj6xX8GR8SU/dzpA2xH3ovY0beIi8lXl7VzRSChkVZghKkEvveUJRxPP6lxjutVsl+lrHW+JDQvvSn4xYpmgp9ixt5dK/RQS9riNScIGSwNNgXO9pyi+OfOoFN0VbonOp3NgDbbkNUy704eqhupOxD2WAiLN9U+L68iSFTB4zOjsa5VP+SSEZN5B+83c9tLJ+nqu5SoLRgMUmXc/xaxSAIJc26wPT1v2O9+X0+bPNnnkHCVoVy8SCf4ZLpf4xDwDQUERsLVYEjG51u6eNgi2c1SMzoHJCroRA/iYYrGF3NRNlhDlB1x3qRs0GsL/bPI2BQtFTB4C8L1D+OBuMmW6UEXyXS3UTxfqS4RBSx1G3jDvjxl7JOo5eATzbMwuTEjLCZiuwfcRHDssOUnuGx+ZC7WZkEVfPalYh1BS1OLODENj7nOmcHKeav+yq4NntZ7NTBxJAxTh3bwU2gEB4jk3OcQ8IbR61FQcLrP9sxctf0tTZYMzEqnZqSsBg8cP+c30X1+XAX5H6o6hwvHwyCeb+tm9MpZwM7zBk8hKIKLwJAXHdgk='
   on:
     tags: true
-    node: '4'
   skip_cleanup: false

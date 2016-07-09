@@ -1,12 +1,12 @@
 {
   "name": "generator-seng-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Copies the seng-boilerplate from Github and replaces the contents with your module name.",
   "files": [
     "app"
   ],
   "author": "Arjan van Wijk <arjan@mediamonks.com> (https://github.com/thanarie)",
-  "homepage": "https://www.mediamonks.com/",
+  "homepage": "https://github.com/mediamonks/generator-seng-module",
   "license": "MIT",
   "keywords": [
     "seng",

@@ -125,7 +125,7 @@ const BootstrapperBase = generators.Base.extend({
             {
                 type: 'input',
                 name: 'keywords',
-                message: "Provide keywords for in your package.json (e.g. configuration):",
+                message: "Provide keywords for in your package.json (e.g. configuration, settings):",
                 // store: true // for easy debugging
             },
             {

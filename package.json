@@ -1,6 +1,6 @@
 {
   "name": "generator-seng-module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Copies the seng-boilerplate from Github and replaces the contents with your module name.",
   "files": [
     "app"
